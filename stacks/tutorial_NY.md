@@ -37,6 +37,7 @@ Familiarize yourself with the format of the sequences (fastq format) and the qua
 
 
 ## Step 2: denovo assembly
+<img src="./denovo.png" width="75%" height="75%">
 
 
 

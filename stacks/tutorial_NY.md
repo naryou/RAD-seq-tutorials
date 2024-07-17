@@ -3,13 +3,13 @@ this is a tutorial to generate a VCF file using the [Stacks](https://catchenlab.
 Created by Narcis, July 2024, updated July 2024 
 
 
-![Stacks][Stacks_NY]
+![image][Stacks_NY <width="100" height="100">]
 
 [Stacks_NY]: ./stacks_logo.png
 
 
 
-## Step1: process_radtags
+## Step 1: process_radtags
 
 
 ## Step 2: denovo assembly

@@ -1,3 +1,5 @@
+<img src="./Structure.png" width="30%" height="30%">
+
 This is the manual to create [Structure](https://web.stanford.edu/group/pritchardlab/structure.html) plots and visualize it using [CLUMPAK](https://tau.evolseq.net/clumpak/)
 
 ## Step 1: edit the STRUCTURE file 

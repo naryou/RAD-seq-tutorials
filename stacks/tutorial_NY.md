@@ -2,9 +2,9 @@ this is a tutorial to generate a VCF file using the [Stacks](https://catchenlab.
 Created by Narcis, July 2024, updated July 2024 
 
 
-![Primula grandis][Pgrandis_NY]
+![Stacks][Stacks_NY]
 
-[Pgrandis_NY]: ./stacks_logo.png
+[Stacks_NY]: ./stacks_logo.png
 
 
 

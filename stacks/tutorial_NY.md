@@ -33,6 +33,14 @@ GGCCT	ind5
 •	Specify the restriction enzyme used to construct the library (SbfI)
 •	Specify that process_radtags clean, discard, and rescue reads
 
+example command:
+
+`
+process_radtags -p in_dir [-P] [-b barcode_file] -o out_dir -e enz [--threads num] [-c] [-q] [-r] [-t len]
+`
+
+
+
 Now, examine the results: the de-multiplexed sequences, and process_radtags.log file. What do you think about the content of the log file? Hint: use cat (for small files), head, more and tail.
 Familiarize yourself with the format of the sequences (fastq format) and the quality (Phred scores). Here you find a good explanation: https://en.wikipedia.org/wiki/FASTQ_format 
 
@@ -66,6 +74,12 @@ ind5	2
 <img src="./populations.png" width="75%" height="75%">
 
 Finally run the populations program to extract a set of SNPs following the manual [here](http://catchenlab.life.illinois.edu/stacks/comp/populations.php)
+
+example: 
+
+`
+populations -V vcf -O dir [-M popmap] (filters) [--fstats] [-k [--sigma=150000] [--bootstrap [-N 100]]] (output formats)
+`
 
 You can now use different population genetics or phylogenetic software for downstream analysis (e.g Structure, GenAlEx, RAxML,…)
 

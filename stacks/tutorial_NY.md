@@ -1,6 +1,6 @@
 <img src="./stacks_logo.png" width="30%" height="30%">
 
-This is a tutorial to generate a VCF file using the [Stacks](https://catchenlab.life.illinois.edu/stacks/manual/) pipeline
+This is a tutorial to use the [Stacks](https://catchenlab.life.illinois.edu/stacks/manual/) pipeline to generate a VCF file from raw RAD-seq data
 
 Created by Narcis, July 2024, updated July 2024 
 

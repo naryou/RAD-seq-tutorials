@@ -1,2 +1,10 @@
 commandline exercises
-*Narcis July 2024*
+
+*written by Narcis July 2024*
+
+
+
+
+
+
+

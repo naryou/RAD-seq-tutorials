@@ -2,12 +2,7 @@ this is a tutorial to generate a VCF file using the [Stacks](https://catchenlab.
 
 Created by Narcis, July 2024, updated July 2024 
 
-
-![image][Stacks_NY <width="100" height="100">]
-
-[Stacks_NY]: ./stacks_logo.png
-
-
+<img src="./stacks_logo.png" width="30%" height="30%">
 
 ## Step 1: process_radtags
 

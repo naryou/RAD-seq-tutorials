@@ -1,8 +1,10 @@
+<img src="./stacks_logo.png" width="30%" height="30%">
+
 This is a tutorial to generate a VCF file using the [Stacks](https://catchenlab.life.illinois.edu/stacks/manual/) pipeline
 
 Created by Narcis, July 2024, updated July 2024 
 
-<img src="./stacks_logo.png" width="30%" height="30%">
+
 
 ## Step 1: process_radtags
 ![process_radtags](https://github.com/user-attachments/assets/5ca86d90-c57f-4cf8-951a-b293f759a552)

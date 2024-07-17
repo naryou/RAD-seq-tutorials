@@ -20,12 +20,15 @@ Copy (don’t move!) the file containing raw Illumina sequences from “/home/wo
 2)	Cleaning and de-multiplexing the sequences using process-radtags program manual [here](https://catchenlab.life.illinois.edu/stacks/manual/#clean)
 You need to:
 •	Specify a set of barcodes using `nano` or `vi`
-Use these barcodes: 
+Use these barcodes:
+
+``` 
 AACCC<tab>ind1
 AATTT	ind2		
 ACCAT	ind3	
 CTCTT	ind4
 GGCCT	ind5
+```
 
 •	Specify the restriction enzyme used to construct the library (SbfI)
 •	Specify that process_radtags clean, discard, and rescue reads
@@ -38,6 +41,24 @@ Familiarize yourself with the format of the sequences (fastq format) and the qua
 
 ## Step 2: denovo assembly
 <img src="./denovo.png" width="75%" height="75%">
+
+de novo assembly of RAD tags without a genome. Follow the manual [here](http://catchenlab.life.illinois.edu/stacks/comp/denovo_map.php)
+
+•	Run the Stacks’ denovo_map.pl program (*It’s important that you set –T (number of threads) to 1, so that you don’t occupy the whole server!)
+
+o	You need to specify a map specifying which individuals belong to which population
+Use `nano` or `vi` to make it as:
+
+```
+ind1<tab>1
+ind2	1
+ind3	1
+ind4	2
+ind5	2
+```
+
+
+
 
 
 

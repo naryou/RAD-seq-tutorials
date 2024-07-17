@@ -63,6 +63,18 @@ ind5	2
 
 
 ## Step 3: population command
+<img src="./populations.png" width="75%" height="75%">
+
+Finally run the populations program to extract a set of SNPs following the manual [here](http://catchenlab.life.illinois.edu/stacks/comp/populations.php)
+
+You can now use different population genetics or phylogenetic software for downstream analysis (e.g Structure, GenAlEx, RAxML,…)
+
+
+
+
+
+
+
 
 
 

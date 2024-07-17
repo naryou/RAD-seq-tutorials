@@ -7,9 +7,8 @@ Created by Narcis, July 2024, updated July 2024
 
 
 ## Step 1: process_radtags
-![process_radtags](https://github.com/user-attachments/assets/5ca86d90-c57f-4cf8-951a-b293f759a552) 
 
-<img src="./stacks_logo.png" width="30%" height="30%">
+<img src="./process_radtags.png" width="70%" height="70%">
 
 
 

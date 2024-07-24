@@ -30,16 +30,22 @@ You do it as a “waterfall workspace”: working (clean (raw, samples), map (st
 Copy (don’t move!) the file containing raw Illumina sequences from “/home/workshop/Illumina_R1.fastq” into your raw directory
 
 2)	Cleaning and de-multiplexing the sequences using process-radtags program manual [here](https://catchenlab.life.illinois.edu/stacks/manual/#clean)
+
 You need to:
-•	Specify a set of barcodes using `nano` or `vi`
-Use these barcodes:
+
+• Specify a set of barcodes using `nano` or `vi`. Use these barcodes:
 
 ``` 
-AACCC<tab>ind1
-AATTT	ind2		
-ACCAT	ind3	
-CTCTT	ind4
-GGCCT	ind5
+ATCAGGTT	AG_Aa_1p
+AATACGAT	BE_Lo_1t
+GGCTATTC	ZH_bu_1t
+GTCCAACC	ZH_We_1p
+TTGCAGTA	Fr_ELB_1p
+GTATCTGA	Fr_ELB_4t
+TCTACTGA	Fr_ELB_5t
+GGTCTCGA	Ge_MH5_1p
+AATTGCGA	Ge_MH20_2p
+GCGTACGA	Ge_MH21_1t
 ```
 
 •	Specify the restriction enzyme used to construct the library (SbfI)

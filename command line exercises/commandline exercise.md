@@ -1,6 +1,6 @@
-commandline exercises
+## Commandline exercises
 
-*written by Narcis, updated July 2024*
+*Created by Narcis, July 2024, updated July 2024*
 
 
 

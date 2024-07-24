@@ -36,10 +36,10 @@ You need to:
 • Specify a set of barcodes using `nano` or `vi`. Use these barcodes:
 
 ``` 
-ATCAGGTT	AG_Aa_1p
-AATACGAT	BE_Lo_1t
-GGCTATTC	ZH_bu_1t
-GTCCAACC	ZH_We_1p
+ATCAGGTT	SW_AG_Aa_1p
+AATACGAT	SW_BE_Lo_1t
+GGCTATTC	SW_ZH_bu_1t
+GTCCAACC	SW_ZH_We_1p
 TTGCAGTA	Fr_ELB_1p
 GTATCTGA	Fr_ELB_4t
 TCTACTGA	Fr_ELB_5t

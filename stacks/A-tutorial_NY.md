@@ -73,11 +73,16 @@ o	You need to specify a map specifying which individuals belong to which populat
 Use `nano` or `vi` to make it as:
 
 ```
-ind1<tab>1
-ind2	1
-ind3	1
-ind4	2
-ind5	2
+SW_AG_Aa_1p  Switzerland
+SW_BE_Lo_1t  Switzerland
+SW_ZH_bu_1t  Switzerland
+SW_ZH_We_1p  Switzerland
+Fr_ELB_1p  France
+Fr_ELB_4t  France
+Fr_ELB_5t  France
+Ge_MH5_1p  Germany
+Ge_MH20_2p  Germany
+Ge_MH21_1t  Germany
 ```
 
 

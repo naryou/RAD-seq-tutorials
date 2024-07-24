@@ -49,21 +49,18 @@ GCGTACGA	Ge_MH21_1t
 ```
 
 •	Specify the restriction enzyme used to construct the library (SbfI)
+
 •	Specify that process_radtags clean, discard, and rescue reads
 
-example command:
+Example command:
 
 `
 process_radtags -p in_dir [-P] [-b barcode_file] -o out_dir -e enz [--threads num] [-c] [-q] [-r] [-t len]
 `
 
+Now, examine the results: the de-multiplexed sequences, and process_radtags.log file. What do you think about the content of the log file? Hint: use `cat` (for small files), `head`, `more` and `tail`.
 
-
-Now, examine the results: the de-multiplexed sequences, and process_radtags.log file. What do you think about the content of the log file? Hint: use cat (for small files), head, more and tail.
 Familiarize yourself with the format of the sequences (fastq format) and the quality (Phred scores). Here you find a good explanation: https://en.wikipedia.org/wiki/FASTQ_format 
-
-
-
 
 ## Step 2: denovo assembly
 <img src="./denovo.png" width="75%" height="75%">

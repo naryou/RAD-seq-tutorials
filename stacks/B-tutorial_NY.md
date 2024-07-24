@@ -8,11 +8,15 @@ After finishing the A-tutorial, start with this one.
 
 
 
-## Step 2: 
+## Step 2: running [gstacks](https://catchenlab.life.illinois.edu/stacks/comp/gstacks.php)
 
 
 
-## Step 3:
+
+## Step 3: running [populations](https://catchenlab.life.illinois.edu/stacks/comp/populations.php) program 
+
+
+
 
 
 

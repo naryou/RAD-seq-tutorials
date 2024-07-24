@@ -20,7 +20,7 @@ Example command:
 Example command:
 
 ```
-populations -P dir -O dir -M popmap (filters) --fstats -k --sigma=150000 --bootstrap -N 100 --structure --vcf --phylip --plink --genepop
+populations -P dir -O dir -M popmap (filters) --fstats -k --sigma=150000 --bootstrap -N 100 --write-random-snp --structure --vcf --phylip --plink --genepop 
 ```
 
 

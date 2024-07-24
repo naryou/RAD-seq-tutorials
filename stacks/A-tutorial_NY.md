@@ -5,12 +5,24 @@ This is a tutorial to use the [Stacks](https://catchenlab.life.illinois.edu/stac
 Created by Narcis, July 2024, updated July 2024 
 
 
+## Step 0: cleaning the data from phiX
+
+This step is optional. Sometimes the sequencing centers don't perform PhiX removal. Here is the tutorial to do it.
+
+We will use [HTSStream](https://github.com/s4hts/HTStream) for removal of PhiX using this command:
+
+```
+#!/bin/bash
+src=/home/ubuntu/course/Barbara/raw_data
+
+/home/ubuntu/course/executables/hts_SeqScreener --singleend-input $src/R1_001.fastq.gz \
+-L R1_001.phix.json -f R1_001.phiX 
+```
+
 
 ## Step 1: process_radtags
 
 <img src="./process_radtags.png" width="70%" height="70%">
-
-
 
 1)	Set up a directory structure on the server to hold your data in different steps
 

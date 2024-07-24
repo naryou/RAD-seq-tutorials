@@ -9,7 +9,7 @@ Created by Narcis, July 2024, updated July 2024
 
 This step is optional. Sometimes the sequencing centers don't perform PhiX removal. Here is the tutorial to do it.
 
-We will use [HTSStream](https://github.com/s4hts/HTStream) for removal of PhiX using this command:
+We will use [HTStream](https://github.com/s4hts/HTStream) for removal of PhiX using this command:
 
 ```
 #!/bin/bash

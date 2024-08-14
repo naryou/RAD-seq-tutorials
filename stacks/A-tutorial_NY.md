@@ -13,7 +13,7 @@ We will use [HTStream](https://github.com/s4hts/HTStream) for removal of PhiX us
 
 ```
 #!/bin/bash
-src=/home/ubuntu/course/Barbara/raw_data
+src=/home/ubuntu/course/raw_data
 
 /home/ubuntu/course/executables/hts_SeqScreener --singleend-input $src/R1_001.fastq.gz \
 -L R1_001.phix.json -f R1_001.phiX 

@@ -99,9 +99,9 @@ Finally run the populations program to extract a set of SNPs following the manua
 
 example: 
 
-`
-populations -V vcf -O dir [-M popmap] (filters) [--fstats] [-k [--sigma=150000] [--bootstrap [-N 100]]] (output formats)
-`
+```
+populations -P ../denovo_M1_n1  -O ./pop_r.2_p2 -M ../popmaps/popmap -p 2 -r 0.2 --fstats --fst-correction --vcf --genepop --structure --plink -t 2 --write-single-snp
+```
 
 You can now use different population genetics or phylogenetic software for downstream analysis (e.g Structure, GenAlEx, RAxML,…)
 

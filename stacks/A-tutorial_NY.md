@@ -55,7 +55,8 @@ GCGTACGA	Ge_MH21_1t
 Example command:
 
 ```
-process_radtags -p in_dir [-P] [-b barcode_file] -o out_dir -e enz [--threads num] [-c] [-q] [-r] [-t len]
+process_radtags -p /dir/raw/Hpal/ddRAD/phiX -o ./samples -b ./barcodes -e ecoRI -c -q -r -D --disable-rad-check --barcode-dist-1 2 --filter-illumina
+
 ```
 
 Now, examine the results: the de-multiplexed sequences, and process_radtags.log file. What do you think about the content of the log file? Hint: use `cat` (for small files), `head`, `more` and `tail`.

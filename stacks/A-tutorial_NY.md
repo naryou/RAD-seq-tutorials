@@ -36,7 +36,7 @@ You need to:
 • Specify a set of barcodes using `nano` or `vi`. Use these barcodes:
 
 ``` 
-ATCAGGTT	SW_AG_Aa_1p
+ATCAGGTT  SW_AG_Aa_1p
 AATACGAT	SW_BE_Lo_1t
 GGCTATTC	SW_ZH_bu_1t
 GTCCAACC	SW_ZH_We_1p

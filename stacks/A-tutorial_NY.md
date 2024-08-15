@@ -68,7 +68,7 @@ Familiarize yourself with the format of the sequences (fastq format) and the qua
 
 de novo assembly of RAD tags without a genome. Follow the manual [here](http://catchenlab.life.illinois.edu/stacks/comp/denovo_map.php)
 
-•	Run the Stacks’ denovo_map.pl program (*It’s important that you set –T (number of threads) to 1, so that you don’t occupy the whole server!)
+•	Run the Stacks’ denovo_map.pl program (*It’s important that you set –T (number of threads) to 2, so that you don’t occupy the whole server!)
 
 o	You need to specify a map specifying which individuals belong to which population
 Use `nano` or `vi` to make it as:
@@ -86,10 +86,11 @@ Ge_MH20_2p  Germany
 Ge_MH21_1t  Germany
 ```
 
+Example command:
 
-
-
-
+```
+denovo_map.pl --samples ./samples --popmap ./popmaps/popmap --out-path ./denovo_M1_n1 --threads 2 -M 1 -n 1 -X "populations: --min-maf 0.2" -r 0.2 -p 2
+```
 
 ## Step 3: population command
 <img src="./populations.png" width="75%" height="75%">

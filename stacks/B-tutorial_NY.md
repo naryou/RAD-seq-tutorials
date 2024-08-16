@@ -65,7 +65,7 @@ done
 
 Example command:
 ```
-EDIT
+ref_map.pl -T 8 --popmap ./popmaps/popmap -o ./ref_map/ --samples ./bwa/aligned
 ```
 
 ## Step 3: running [gstacks](https://catchenlab.life.illinois.edu/stacks/comp/gstacks.php)

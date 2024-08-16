@@ -1,10 +1,10 @@
 <img src="./stacks_logo.png" width="30%" height="30%">
 
-*Created by Narcis, July 2024, updated July 2024*
+*Created by Narcis, July 2024, updated August 2024*
 
 After finishing the A-tutorial, start with this one.
 
-## Step 1: aligne the reads to the refrence genome using [bwa](https://bio-bwa.sourceforge.net)
+## Step 1: align the reads to the refrence genome using [bwa](https://bio-bwa.sourceforge.net)
 
 ### First, indext the genome (create database)
 

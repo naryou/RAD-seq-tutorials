@@ -22,7 +22,6 @@ bwa index -p Hpal /srv/ref_genome/out_JBAT_review3.FINAL_hap2.fa
 
 module load Aligner/BWA/0.7.17
 module load Tools/samtools/1.17
-module load Variants/Stacks/2.54
 
 src=/srv/kenlab/narcis/analysis/ddRAD/stacks
 bwa_db=$src/bwa_index/Hpal
@@ -71,6 +70,10 @@ EDIT
 Example command:
 
 ```
+#!/bin/bash
+
+module load Variants/Stacks/2.54
+
 # Run gstacks to build loci from the aligned paired-end data.
 #
 gstacks -I $src/bwa/aligned/ -M $src/popmaps/popmap -O $src/stacks/ref_map -t 8
@@ -86,6 +89,10 @@ Example command:
 # Run populations. Calculate Hardy-Weinberg deviation, population statistics, f-statistics and 
 # smooth the statistics across the genome. Export several output files.
 #
+#!/bin/bash
+
+module load Variants/Stacks/2.54
+
 populations -P $src/stacks/ref_map -M $src/popmaps/popmap -r 0.65 --vcf --genepop --structure --fstats --smooth --hwe -t 8
 #```
 

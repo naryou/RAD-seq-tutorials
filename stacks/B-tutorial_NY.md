@@ -59,7 +59,7 @@ done
 
 Example command:
 ```
-ref_map.pl -T 8 --popmap ./popmaps/popmap -o ./ref_map/ --samples ./bwa/aligned
+ref_map.pl --samples ./bwa/aligned -T 8 --popmap ./popmaps/popmap -o ./ref_map -X "populations: -p 2 -r 0.7"
 ```
 
 ## Step 3: running [gstacks](https://catchenlab.life.illinois.edu/stacks/comp/gstacks.php)

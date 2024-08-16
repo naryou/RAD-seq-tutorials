@@ -29,7 +29,7 @@ Edit the mainparams file according to the input file.
   * Set 'define ' to 1 for the first run and give the output name K1. Example command (from the console directory):
     
 ```
-./structure -m mainparams_NY -e extraparams_NY -i /Users/Structure/pop_r.7_p2/populations.structure -o ./try1_NY/output_NY_K1
+./structure -m mainparams_NY -e extraparams_NY -i /Users/Structure/pop_r.7_p2/populations.structure -o ./try1_NY/output_NY_K1_1
 ```
 
   *  Repeat the first step for K 2-6. Remember to rename the output file name.

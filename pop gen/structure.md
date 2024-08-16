@@ -18,6 +18,7 @@ The STRUCURE format file you have generated using the populations program in Sta
 * set burnin to 10000
 * set MCMC to 20000
 * set number of iterations to 3
+  
 
 ### For the commandline version
 Edit the mainparams and extraparams files according to the input file. It's best to remove the marker names line and pop info column.

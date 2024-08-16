@@ -50,15 +50,6 @@ do
 done
 
 #
-# Run gstacks to build loci from the aligned paired-end data.
-#
-gstacks -I $src/bwa/aligned/ -M $src/popmaps/popmap -O $src/stacks/ref_map -t 8
-
-#
-# Run populations. Calculate Hardy-Weinberg deviation, population statistics, f-statistics and 
-# smooth the statistics across the genome. Export several output files.
-#
-populations -P $src/stacks/ref_map -M $src/popmaps/popmap -r 0.65 --vcf --genepop --structure --fstats --smooth --hwe -t 8
 ```
 
 
@@ -71,12 +62,20 @@ populations -P $src/stacks/ref_map -M $src/popmaps/popmap -r 0.65 --vcf --genepo
 ## Step 2: running [ref_map.pl](https://catchenlab.life.illinois.edu/stacks/comp/ref_map.php) program
 
 Example command:
-
+```
+EDIT
+```
 
 ## Step 3: running [gstacks](https://catchenlab.life.illinois.edu/stacks/comp/gstacks.php)
 
 Example command:
 
+```
+# Run gstacks to build loci from the aligned paired-end data.
+#
+gstacks -I $src/bwa/aligned/ -M $src/popmaps/popmap -O $src/stacks/ref_map -t 8
+#
+```
 
 
 ## Step 4: running [populations](https://catchenlab.life.illinois.edu/stacks/comp/populations.php) program 
@@ -84,8 +83,11 @@ Example command:
 Example command:
 
 ```
-populations -P dir -O dir -M popmap (filters) --fstats -k --sigma=150000 --bootstrap -N 100 --write-random-snp --structure --vcf --phylip --plink --genepop 
-```
+# Run populations. Calculate Hardy-Weinberg deviation, population statistics, f-statistics and 
+# smooth the statistics across the genome. Export several output files.
+#
+populations -P $src/stacks/ref_map -M $src/popmaps/popmap -r 0.65 --vcf --genepop --structure --fstats --smooth --hwe -t 8
+#```
 
 
 

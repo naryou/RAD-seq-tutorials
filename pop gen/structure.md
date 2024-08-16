@@ -13,8 +13,8 @@ The STRUCURE format file you have generated using the populations program in Sta
 ## Step 3: Run it as follows
 
 * set K 1-6
-* set burnin to 1000
-* set MCMC to 2000
+* set burnin to 10000
+* set MCMC to 20000
 
 For the commandline version, edit the mainparams and extraparams files according to the input file. It's best to remove the marker names line and pop info column.
 

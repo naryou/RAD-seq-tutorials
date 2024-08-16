@@ -89,7 +89,8 @@ Example command:
 
 module load Variants/Stacks/2.54
 
-populations -P ./ref_map -M ./popmaps/popmap -r 0.65 --vcf --genepop --structure --fstats --smooth --hwe -t 8
+populations -P ./gstacks -O ./gstacks/pop_r.7_p2 -M ./popmaps/popmap -p 2 -r 0.7 --fstats --fst-correction --vcf --genepop --structure --plink -t 2 --write-si
+ngle-snp
 ```
 
 Now you are ready to use the different outputs for downstream analysis

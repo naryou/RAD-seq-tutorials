@@ -42,7 +42,7 @@ Ge_MH21_1t
 ”
 
 #
-# Align paired-end data with BWA, convert to BAM and SORT.
+# Align single-end data with BWA, convert to BAM and SORT.
 #
 for sample in $files
 do 

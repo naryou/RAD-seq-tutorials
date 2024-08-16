@@ -12,6 +12,8 @@ The STRUCURE format file you have generated using the populations program in Sta
 
 ## Step 3: Run it as follows
 
+### For the GUI version
+
 * set K 1-6
 * set burnin to 10000
 * set MCMC to 20000

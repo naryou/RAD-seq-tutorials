@@ -55,13 +55,7 @@ done
 ```
 
 
-
-
-
-
-
-
-## Step 2: running [ref_map.pl](https://catchenlab.life.illinois.edu/stacks/comp/ref_map.php) program
+## Step 2: running [ref_map.pl](https://catchenlab.life.illinois.edu/stacks/comp/ref_map.php) program (this step runs the whole pipeline, you can skip this step and run the next steps manually)
 
 Example command:
 ```

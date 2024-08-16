@@ -1,4 +1,4 @@
-<img src="./Structure.png" width="100%" height="100%">
+<img src="./structure.png" width="100%" height="100%">
 
 This is the manual to create [Structure](https://web.stanford.edu/group/pritchardlab/structure.html) plots and visualize it using [CLUMPAK](https://tau.evolseq.net/clumpak/)
 

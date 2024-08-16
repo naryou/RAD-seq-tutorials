@@ -15,7 +15,6 @@ Example command:
 
 module load Aligner/BWA/0.7.17
 bwa index -p Hpal /srv/ref_genome/out_JBAT_review3.FINAL_hap2.fa
-
 ```
 
 ### Second, align the samples to the refernce genome, convert SAM to BAM and sort the alignment
@@ -73,7 +72,7 @@ module load Variants/Stacks/2.54
 
 # Run gstacks to build loci from the aligned paired-end data.
 #
-gstacks -I $src/bwa/aligned/ -M $src/popmaps/popmap -O $src/stacks/ref_map -t 8
+gstacks -I ./bwa/aligned/ -M ./popmaps/popmap -O ./stacks/ref_map -t 8
 #
 ```
 
@@ -90,7 +89,7 @@ Example command:
 
 module load Variants/Stacks/2.54
 
-populations -P $src/stacks/ref_map -M $src/popmaps/popmap -r 0.65 --vcf --genepop --structure --fstats --smooth --hwe -t 8
+populations -P ./ref_map -M ./popmaps/popmap -r 0.65 --vcf --genepop --structure --fstats --smooth --hwe -t 8
 ```
 
 Now you are ready to use the different outputs for downstream analysis

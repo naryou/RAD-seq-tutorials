@@ -4,18 +4,34 @@
 
 After finishing the A-tutorial, start with this one.
 
-## Step 1: running [ref_map.pl](https://catchenlab.life.illinois.edu/stacks/comp/ref_map.php) program
+## Step 1: aligne the reads to the refrence genome using [bwa](https://bio-bwa.sourceforge.net)
+
+### First, indext the genome
+
+Example command:
+
+```
+bwa index -p Hpal /srv/ref_genome/out_JBAT_review3.FINAL_hap2.fa
+
+```
+
+### Second, align the samples to the refernce genome, convert SAM to BAM and sort the alignment
+
+
+
+
+## Step 2: running [ref_map.pl](https://catchenlab.life.illinois.edu/stacks/comp/ref_map.php) program
 
 Example command:
 
 
-## Step 2: running [gstacks](https://catchenlab.life.illinois.edu/stacks/comp/gstacks.php)
+## Step 3: running [gstacks](https://catchenlab.life.illinois.edu/stacks/comp/gstacks.php)
 
 Example command:
 
 
 
-## Step 3: running [populations](https://catchenlab.life.illinois.edu/stacks/comp/populations.php) program 
+## Step 4: running [populations](https://catchenlab.life.illinois.edu/stacks/comp/populations.php) program 
 
 Example command:
 

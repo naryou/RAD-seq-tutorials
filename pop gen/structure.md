@@ -16,9 +16,20 @@ The STRUCURE format file you have generated using the populations program in Sta
 * set burnin to 10000
 * set MCMC to 20000
 
-For the commandline version, edit the mainparams and extraparams files according to the input file. It's best to remove the marker names line and pop info column.
+### For the commandline version
+Edit the mainparams and extraparams files according to the input file. It's best to remove the marker names line and pop info column.
 
 To get the number of loci, you need to count number of columns using this command : `cat file1 | awk 'BEGIN{FS=”\t”};{print NF}'`
+
+Edit the mainparams file according to the input file. 
+  * Set 'define ' to 1 for the first run and give the output name K1. Example command (from the console directory):
+    
+```
+./structure -m mainparams_NY -e extraparams_NY -i /Users/Structure/pop_r.7_p2/populations.structure -o ./try1_NY/output_NY_K1
+```
+
+  *  Repeat the first step for K 2-6. Remember to rename the output file name.
+    
 
 
 ## Step 4: Visualize the results in [CLUMPAK](https://tau.evolseq.net/clumpak/)

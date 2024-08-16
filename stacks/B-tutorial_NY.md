@@ -93,3 +93,5 @@ module load Variants/Stacks/2.54
 populations -P $src/stacks/ref_map -M $src/popmaps/popmap -r 0.65 --vcf --genepop --structure --fstats --smooth --hwe -t 8
 #```
 
+Now you are ready to use the different outputs for downstream analysis
+

@@ -11,6 +11,9 @@ After finishing the A-tutorial, start with this one.
 Example command:
 
 ```
+#!/bin/bash
+
+module load Aligner/BWA/0.7.17
 bwa index -p Hpal /srv/ref_genome/out_JBAT_review3.FINAL_hap2.fa
 
 ```

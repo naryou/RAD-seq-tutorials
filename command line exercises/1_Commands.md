@@ -24,6 +24,8 @@ All command should work as the same.
   - `Ctrl + a`: Put your cursor at the beginning of the line
   - `Ctrl + e`: Put your cursor at the end of the line
   - tab completion: Press `tab` after you type the first few chalacters of a file or directory name. It should auto-complete if you typed enough characters for it to figure it out.
+  - `Ctrl + r` searches for previous commands
+  - `history` gives all the previous commands
 
 - Move between directories
 

@@ -107,7 +107,7 @@ Not only understanding how the files should be formatted, but also knowing how t
 
 ## commands
 
-### Move directories: `cd`
+### Navigate between directories: `cd`
 
 Usage: `cd ~/path/to/the/directory/`  
 
@@ -133,6 +133,13 @@ $
 
 * * *
 
+### rename or remove directories: `mv` and `rm`
+
+Usage: `mv dir1 dir2`
+
+`rm -r dir2` 
+
+**Use `rm` very carefully!!!**
 
 ### Create files: `touch` 
 

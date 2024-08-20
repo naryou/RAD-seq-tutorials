@@ -140,7 +140,7 @@ $
 Usage: `mv dir1 dir2`
 
 ```bash
-rm -r dir2
+$ rm -r dir2
 ``` 
 
 **Use `rm` very carefully!!!**

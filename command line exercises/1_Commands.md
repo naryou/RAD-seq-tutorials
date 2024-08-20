@@ -1,15 +1,13 @@
 # Review of linux commands
 
-Some of the content overlaps with previous lectures by Masa and others.
-
 ## Log into the server
 
-Reminder: our server runs on a Linux operating system.  
-The following commands are to 'interact' with that operating system and do NOT work on Windows. Most will work exactly the same on a Mac. Masa's instruction is available [here](https://gist.github.com/masaomi/999d1177c00116e61909220c1d40e32e)
+Our server runs on a Linux operating system.  
+The following commands are to 'interact' with that operating system and do NOT work on Windows. Most will work exactly the same on a Mac. 
 
 ```bash
-$ ssh your_BFabric_account_name@172.23.30.6
-your_BFabric_account_name@172.23.30.6's password:
+$ ssh your_account_name@XXX
+your_account_name@XXX's password:
 ```
 
 ## Unix commands and working with file types common in bioinformatics
@@ -122,7 +120,7 @@ Desktop $
 * * *
 
 
-### Create directory: `mkdir` (DO NOT RUN TODAY)
+### Create directory: `mkdir`
 
 Usage: `mkdir name_of_directory`
 
@@ -136,7 +134,7 @@ $
 * * *
 
 
-### Create files: `touch` (DO NOT RUN TODAY)
+### Create files: `touch` 
 
 You can create empty file with `touch` command.
 
@@ -151,7 +149,18 @@ $
 
 * * *
 
-### Copy: `cp`  (DO NOT RUN TODAY)
+### Create file `nano`or `vi`
+You can use nano or vi to create and edit files.
+
+Usage: `nano file1` and start typing in the file. 
+
+You can hit Ctrl+x to save and Shift+y to name and close the file.
+
+Here you find more about vi: URL
+
+* * *
+
+### Copy: `cp`  
 
 Copy and paste files or directories
 
@@ -197,7 +206,7 @@ data $ cat file1.txt file2.txt
 
 * * *
 
-### View large file with `less`
+### View large file with `less` or `more`
 
 - `less`: view and search only what you want to see on a screen
 
@@ -250,7 +259,7 @@ $ grep -vc "CDS" Ahal.gff
 
 * * *
 
-### Compress file: `gzip` (DO NOT RUN TODAY)
+### Compress file: `gzip`
 
 Usage: `gzip [options] filename`
 
@@ -276,7 +285,7 @@ There are some commands to compress files. Use proper commands depends your file
 
 * * *
 
-### Working with compressed files (DO NOT RUN TODAY)
+### Working with compressed files
 
 The commands above work with uncompressed, plain text files.  
 Many tools either output compressed (gzipped, bzipped, etc) files, collaborators will send you compressed files or you should compress your files to save disk space.  
@@ -366,7 +375,7 @@ $ echo "ABCDEFGHIAJKBLMNOCPQRSTU" | tr -d 'ABC'
 
 ### Substitute text part2: `sed`
 
-Usage: `sed -e 's/<before>/<after>/`
+Usage: `sed -e 's/<before>/<after>/g`
 
 `sed` command replaces the text **as block**.
 If you write the command `sed -e /ABC/XYZ/`, all the set of "ABC" will be converted to "XYZ".  

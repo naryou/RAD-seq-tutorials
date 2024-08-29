@@ -48,7 +48,7 @@ AATTGCGA	Ge_MH20_2p
 GCGTACGA	Ge_MH21_1t
 ```
 
-•	Specify the restriction enzyme used to construct the library (SbfI)
+•	Specify the restriction enzyme used to construct the library (ecoRI)
 
 •	Specify that process_radtags clean, discard, and rescue reads
 
@@ -70,7 +70,8 @@ de novo assembly of RAD tags without a genome. Follow the manual [here](http://c
 
 •	Run the Stacks’ denovo_map.pl program (*It’s important that you set –T (number of threads) to 2, so that you don’t occupy the whole server!)
 
-o	You need to specify a map specifying which individuals belong to which population
+o	You need to specify a map specifying which individuals belong to which population.
+
 Use `nano` or `vi` to make it as:
 
 ```

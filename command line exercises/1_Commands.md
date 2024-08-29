@@ -167,7 +167,7 @@ Usage: `nano file1` and start typing in the file.
 
 You can hit Ctrl+x to save and Shift+y to name and close the file.
 
-Here you find more about vi: URL
+Here you find more about vi: [URL](https://www.cs.colostate.edu/helpdocs/vi.html)
 
 * * *
 

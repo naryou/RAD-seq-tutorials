@@ -267,9 +267,9 @@ grep [-civ] "pattern" file(s).txt
 Examples
 
 ```bash
-$ grep "CDS" Ahal.gff | less
-$ grep -c "CDS" Ahal.gff
-$ grep -vc "CDS" Ahal.gff
+$ grep "CDS" Ahal_kurz.gff | less
+$ grep -c "CDS" Ahal_kurz.gff
+$ grep -vc "CDS" Ahal_kurz.gff
 ```
 
 * * *

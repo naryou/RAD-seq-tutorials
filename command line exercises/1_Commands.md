@@ -172,7 +172,7 @@ Here you find more about vi: [URL](https://www.cs.colostate.edu/helpdocs/vi.html
 
 * * *
 
-### Copy: `cp`  
+### Copy: `cp` and `scp` 
 
 Copy and paste files or directories
 
@@ -183,6 +183,9 @@ For copying directory, you need to add `-r` option
 ```bash
 $ cp -r /scratch/bio373_2023/data/CommandLine /scratch/bio373_2023/YOUR_USERNAME 
 $ ls #check if the directory copied properly
+
+$ scp ./file usernameAThost:/PATH/TO/DIR #to copy files to and from the server
+
 ```
 
 * * *

@@ -1,0 +1,11 @@
+ind populations color cluster lat lon K1  K2  K3
+SW_AG_Aa_1p	Switzerland red 1.000 47.451463 8.024814  0.002 0.000 0.998
+SW_BE_Lo_1t	Switzerland red 0.550 46.982372 7.492298  0.542 0.448 0.011
+SW_ZH_bu_1t	Switzerland red 1.000 47.365698 8.566283  0.000 0.000 1.000
+SW_ZH_We_1p	Switzerland red 1.000 47.416723 8.437102  0.000 0.000 1.000
+Fr_ELB_1p	France  blue  1.000 47.45193	2.26505  1.000 0.000 0.000
+Fr_ELB_4t	France  blue  1.000 47.8193	2.26505 1.000 0.000 0.000
+Fr_ELB_5t	France  blue  1.000 47.9193	2.9505  1.000 0.000 0.000
+Ge_MH5_1p	Germany green 0.000 48.646639 9.380697  0.000 1.000 0.000
+Ge_MH20_2p	Germany  green 0.000 48.86639 9.380697 0.000 1.000 0.000
+Ge_MH21_1t	Germany  green 0.694 48.946639 9.50697 0.710 0.289 0.001

@@ -143,7 +143,7 @@ plot(pca1$li[,1], pca1$li[,2] ,  cex=2,lwd=3, col=color_ny , pch = c(2,1,3)[as.n
      cex.lab=1, cex.axis=1, 
      ylab=paste("PC2", paste("(", round(pca1$eig[2]/sum(pca1$eig)*100), " %)", sep="" )),
      xlab=paste("PC1", paste("(", round(pca1$eig[1]/sum(pca1$eig)*100), " %)", sep="" )))
-#text(pca1$li[,1], pca1$li[,2], labels=warn_info$Country, cex= 0.4) # YAAAYYYY
+#text(pca1$li[,1], pca1$li[,2], labels=warn_info$Country, cex= 0.4)
 legend("bottomright",legend=paste(c('France', 'Germany', 'Switzerland')),
        pch = c(2,1,3), cex=0.6)
 

@@ -401,6 +401,7 @@ To delete letters, leave “Char2” blank.
 | ------ | -------------- |
 | -e     | set patterns   |
 | -i     | overwrite file |
+| -g     | replace globally|
 
 ```bash
 $ echo "Hello World" | sed -e 's/Hello/Goodbye/'

@@ -362,7 +362,7 @@ $ wc -c file1.txt file2.txt
 
 ### Translate or delete with `tr`
 
-Replaces characters (Char1) with other characters (Char2) and prints to screen. You can also do character/string replacement with something like `sed`, but that requires knowledge of regular expressions. I won't cover that here, but it's not difficult to use.
+Replaces characters (Char1) with other characters (Char2) and prints to screen. You can also do character/string replacement with something like `sed`, but that requires knowledge of regular expressions. 
 
 ```
 tr [-d] Char1 [Char2]

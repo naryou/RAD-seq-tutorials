@@ -4,6 +4,10 @@ library(maps)
 
 #install.packages("mapdata")
 library(mapdata)
+
+#install.packages("plotrix")
+library(plotrix)
+#
 map('worldHires') ######The command gives you a plot of the World centered around the GMT timezone
 # map('world2Hires') ####### The command gives you a plot of a map centered around the International Date line
 

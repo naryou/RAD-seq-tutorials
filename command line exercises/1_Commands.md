@@ -1,5 +1,6 @@
 # Review of linux commands
 
+*Written by Yasu, updated by Narcis* 
 ## Log into the server
 
 Our server runs on a Linux operating system.  

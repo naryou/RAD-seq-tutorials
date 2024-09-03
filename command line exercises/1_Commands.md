@@ -7,8 +7,10 @@ Our server runs on a Linux operating system.
 The following commands are to 'interact' with that operating system and do NOT work on Windows. Most will work exactly the same on a Mac. 
 
 ```bash
-$ ssh your_account_name@XXX
-your_account_name@XXX's password:
+$ ssh your_account_name@IP
+your_account_name@IP's password:
+
+cd /home/course/YOUR_NAME
 ```
 
 ## Unix commands and working with file types common in bioinformatics

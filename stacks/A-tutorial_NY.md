@@ -5,7 +5,7 @@ This is a tutorial to use the [Stacks](https://catchenlab.life.illinois.edu/stac
 Created by Narcis, July 2024, updated August 2024 
 
 
-## Step 0: cleaning the data from phiX
+## Step 0: cleaning the data from PhiX
 
 This step is optional in our course (clean data is provided). For quality control and normalization, genome of PhiX (a bacteriophage) is added to the Illumina library for sequencing. Sometimes the sequencing centers don't perform PhiX removal. Here is the tutorial to do it.
 

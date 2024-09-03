@@ -460,6 +460,8 @@ $ echo "12 10 11 12 12 11" | tr ' ' '\n' | sort | uniq -c
 
 ### Create and run bash files
 
+This we will do many times throughout the course.
+
 * First run: `nano bash_template.sh`
 
 and type the following in it:

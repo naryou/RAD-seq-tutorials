@@ -7,8 +7,8 @@ Our server runs on a Linux operating system.
 The following commands are to 'interact' with that operating system and do NOT work on Windows. Most will work exactly the same on a Mac. 
 
 ```bash
-$ ssh your_account_name@IP
-your_account_name@IP's password:
+$ ssh your_account_name@172.30.248.133
+your_account_name@172.30.248.133 password:
 
 cd /home/course
 mkdir YOUR_NAME

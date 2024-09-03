@@ -458,3 +458,40 @@ $ echo "12 10 11 12 12 11" | tr ' ' '\n' | sort | uniq -c
 
 * * *
 
+### Create and run bash files
+
+* First run: `nano bash_template.sh`
+
+and type the following in it:
+
+```
+#!/bin/bash
+
+date
+echo $PATH
+
+```
+
+* Then close and save the file with `CtrL + X` and `Shift + Y`
+
+* Add executable permission to it using `chmod 777 bash_template.sh`
+
+* Run it using `nohup ./bash_template.sh > nohup_out.txt &`
+
+* Check the content of `nohup_out.txt` file using `more` `less` or `cat`
+
+You can check status of the runs using `top` and `htop` commands.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

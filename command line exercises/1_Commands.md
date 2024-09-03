@@ -10,7 +10,8 @@ The following commands are to 'interact' with that operating system and do NOT w
 $ ssh your_account_name@IP
 your_account_name@IP's password:
 
-cd /home/course/YOUR_NAME
+cd /home/course
+mkdir YOUR_NAME
 ```
 
 ## Unix commands and working with file types common in bioinformatics

@@ -13,7 +13,6 @@ Example command:
 ```
 #!/bin/bash
 
-module load Aligner/BWA/0.7.17
 bwa index -p Hpal /srv/ref_genome/out_JBAT_review3.FINAL_hap2.fa
 ```
 
@@ -21,9 +20,6 @@ bwa index -p Hpal /srv/ref_genome/out_JBAT_review3.FINAL_hap2.fa
 
 ```
 #!/bin/bash
-
-module load Aligner/BWA/0.7.17
-module load Tools/samtools/1.17
 
 src=/srv/kenlab/narcis/analysis/ddRAD/stacks
 bwa_db=$src/bwa_index/Hpal
@@ -53,7 +49,6 @@ done
 #
 ```
 
-
 ## Step 2: running [ref_map.pl](https://catchenlab.life.illinois.edu/stacks/comp/ref_map.php) program (this step runs the whole pipeline, you can skip this step and run the next steps manually)
 
 Example command:
@@ -67,8 +62,6 @@ Example command:
 
 ```
 #!/bin/bash
-
-module load Variants/Stacks/2.54
 
 # Run gstacks to build loci from the aligned paired-end data.
 #
@@ -86,8 +79,6 @@ Example command:
 # smooth the statistics across the genome. Export several output files.
 #
 #!/bin/bash
-
-module load Variants/Stacks/2.54
 
 populations -P ./gstacks -O ./gstacks/pop_r.7_p2 -M ./popmaps/popmap -p 2 -r 0.7 --fstats --fst-correction --vcf --genepop --structure --plink -t 2 --write-si
 ngle-snp

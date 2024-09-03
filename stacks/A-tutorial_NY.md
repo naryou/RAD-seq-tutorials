@@ -26,8 +26,7 @@ hts_SeqScreener --singleend-input $src/R1_001.fastq.gz \
 
 1)	Set up a directory structure on the server to hold your data in different steps
 
-You do it as a “waterfall workspace”: working (clean (raw, samples), map (stacks))
-Copy (don’t move!) the file containing raw Illumina sequences from “/home/workshop/Illumina_R1.fastq” into your raw directory
+You do it as a “waterfall workspace”: (YOUR_NAME (samples, denovo_map, ref_map))
 
 2)	Cleaning and de-multiplexing the sequences using process-radtags program manual [here](https://catchenlab.life.illinois.edu/stacks/manual/#clean)
 
@@ -55,7 +54,7 @@ GCGTACGA	Ge_MH21_1t
 Example command:
 
 ```
-process_radtags -p /dir/raw/Hpal/ddRAD/phiX -o ./samples -b ./barcodes -e ecoRI -c -q -r -D --disable-rad-check --barcode-dist-1 2 --filter-illumina
+process_radtags -p /home/course/raw_data/phiX -o ./samples -b ./barcodes -e ecoRI -c -q -r -D --disable-rad-check --barcode-dist-1 2 --filter-illumina
 
 ```
 

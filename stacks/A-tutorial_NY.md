@@ -54,7 +54,7 @@ GCGTACGA	Ge_MH21_1t
 Example command:
 
 ```
-process_radtags -p /home/course/raw_data/phiX -o ./samples -b ./barcodes -e ecoRI -c -q -r -D --disable-rad-check --barcode-dist-1 2 --filter-illumina
+process_radtags -p /home/course/raw_data -o ./samples -b ./barcodes -e ecoRI -c -q -r -D --disable-rad-check --barcode-dist-1 2 --filter-illumina
 
 ```
 

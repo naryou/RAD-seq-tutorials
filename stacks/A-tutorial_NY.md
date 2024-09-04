@@ -7,13 +7,13 @@ Created by Narcis, July 2024, updated August 2024
 
 ## Step 0: cleaning the data from PhiX
 
-This step is optional in our course (clean data is provided). For quality control and normalization, genome of PhiX (a bacteriophage) is added to the Illumina library for sequencing. Sometimes the sequencing centers don't perform PhiX removal. Here is the tutorial to do it.
+For quality control and normalization, genome of PhiX (a bacteriophage) is added to the Illumina library for sequencing. Sometimes the sequencing centers don't perform PhiX removal. Here is the tutorial to do it.
 
 We will use [HTStream](https://github.com/s4hts/HTStream) for removal of PhiX using this command:
 
 ```
 #!/bin/bash
-src=/home/ubuntu/narcis/raw_data
+src=/home/course/raw_data
 
 hts_SeqScreener --singleend-input $src/R1_001.fastq.gz \
 -L R1_001.phix.json -f R1_001.phiX 

@@ -16,7 +16,7 @@ Example command:
 mkdir /home/course/YOUR_NAME/bwa/index
 cd /home/course/YOUR_NAME/bwa/index
 
-bwa index -p Hpal /srv/ref_genome/out_JBAT_review3.FINAL_hap2.fa
+bwa index -p Hpal /home/course/ref_genome/out_JBAT_review3.FINAL_hap2.fa
 ```
 
 ### Second, align the samples to the refernce genome, convert SAM to BAM and sort the alignment

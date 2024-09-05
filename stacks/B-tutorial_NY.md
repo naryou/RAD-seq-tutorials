@@ -24,8 +24,8 @@ bwa index -p Hpal /srv/ref_genome/out_JBAT_review3.FINAL_hap2.fa
 ```
 #!/bin/bash
 
-src=/srv/kenlab/narcis/analysis/ddRAD/stacks
-bwa_db=$src/bwa_index/Hpal
+src=/home/course/YOUR_NAME/bwa
+bwa_db=$src/index/Hpal
     
 files=”SW_AG_Aa_1p
 SW_BE_Lo_1t

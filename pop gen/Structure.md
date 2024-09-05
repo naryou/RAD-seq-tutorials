@@ -23,18 +23,23 @@ The STRUCURE format file you have generated using the populations program in Sta
 ### For the commandline version
 Edit the mainparams and extraparams files according to the input file. It's best to remove the marker names line and pop info column.
 
-To get the number of loci, you need to count number of columns using this command : `cat file1 | awk 'BEGIN{FS=”\t”};{print NF}'`
+To get the number of loci, you need to count number of columns using this command : `cat file1 | awk 'BEGIN{FS="\t"};{print NF}'`
 
 Edit the mainparams file according to the input file. 
-  * Set 'define ' to 1 for the first run and give the output name K1. Example command (from the console directory):
     
 ```
-/opt/structure/structure -m mainparams_NY -e extraparams_NY -i /PATH/populations.structure -o ./run1_NY/output_NY_K1_1
+#!/bin/bash
+
+for i in {1..7} 
+do
+/opt/structure/structure -m mainparams_NY -e extraparams_NY -K $i -i ./populations_p2_r.7.structure -o ./try2_NY/out_${i}_1
+
+/opt/structure/structure -m mainparams_NY -e extraparams_NY -K $i -i ./populations_p2_r.7.structure -o ./try2_NY/out_${i}_2
+
+/opt/structure/structure -m mainparams_NY -e extraparams_NY -K $i -i ./populations_p2_r.7.structure -o ./try2_NY/out_${i}_3
+
+done
 ```
-
-  *  Repeat the first step for K 2-6. Remember to rename the output file name.
-    
-
 
 ## Step 4: Visualize the results in [CLUMPAK](https://clumpak.tau.ac.il/help.html)
 

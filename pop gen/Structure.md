@@ -38,7 +38,7 @@ Edit the mainparams file according to the input file.
 
 ## Step 4: Visualize the results in [CLUMPAK](https://clumpak.tau.ac.il/help.html)
 
-Select and zip the "f" files, and upload them in [CLUMPAK](https://tau.evolseq.net/clumpak/) for visualization and finding 'Best K'
+Select and zip the "f" files, and upload them in [CLUMPAK](https://clumpak.tau.ac.il/help.html) for visualization and finding 'Best K'
 
 
 

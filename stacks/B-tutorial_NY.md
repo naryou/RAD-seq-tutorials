@@ -13,6 +13,9 @@ Example command:
 ```
 #!/bin/bash
 
+mkdir /home/course/YOUR_NAME/bwa/index
+cd /home/course/YOUR_NAME/bwa/index
+
 bwa index -p Hpal /srv/ref_genome/out_JBAT_review3.FINAL_hap2.fa
 ```
 
